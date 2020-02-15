@@ -5,6 +5,10 @@ import { setupApplicationTest } from 'ember-qunit';
 module('Acceptance | logging out', function(hooks) {
   setupApplicationTest(hooks);
 
+  hooks.beforeEach(function() {
+    this.owner.register('service:auth', 'MockAuthService');
+  });
+
   test('visiting /teams and clicking "Logout"', async function(assert) {
     await visit('/teams');
 
