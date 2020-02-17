@@ -25,6 +25,5 @@ export default class LoginFormComponent extends Component {
   @action
   onSelectChanged(event) {
     this.userId = event.target.value;
-    console.log(event.target.value, this.userId);
   }
 }

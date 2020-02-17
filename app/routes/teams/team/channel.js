@@ -7,13 +7,5 @@ export default class TeamsTeamChannelRoute extends Route {
     const { teamId } = this.paramsFor('teams.team');
     const resp = await fetch(`/api/teams/${teamId}/channels/${channelId}`);
     return resp.json();
-    console.log(resp);
   }
 }
-
-// /api/teams/li/channels/general/messages
-
-// async model({ teamId }) {
-//   const resp = await fetch(`/api/teams/${teamId}`);
-//   return resp.json();
-// }
