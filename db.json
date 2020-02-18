@@ -474,14 +474,6 @@
       "id": 57
     },
     {
-      "teamId": "li",
-      "channelId": "general",
-      "userId": 1,
-      "body": "Hi everyone!",
-      "createdAt": 1582023855488,
-      "id": 58
-    },
-    {
       "teamId": "javascript",
       "channelId": "funny",
       "userId": "1",
@@ -645,113 +637,9 @@
       "teamId": "linkedin",
       "channelId": "jobs",
       "userId": "1",
-      "body": "qqq",
-      "createdAt": 1582028302347,
-      "id": 79
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqq",
-      "createdAt": 1582028308174,
-      "id": 80
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "ssssss",
-      "createdAt": 1582028326570,
-      "id": 81
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "aaaa",
-      "createdAt": 1582028348102,
-      "id": 82
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "wwww",
-      "createdAt": 1582028457424,
-      "id": 83
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqqq",
-      "createdAt": 1582028488181,
-      "id": 84
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqqq",
-      "createdAt": 1582028494581,
-      "id": 85
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "aaaaa",
-      "createdAt": 1582028657641,
-      "id": 86
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqqq",
-      "createdAt": 1582029552846,
-      "id": 87
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqqq",
-      "createdAt": 1582029558614,
-      "id": 88
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqqq",
-      "createdAt": 1582029560755,
-      "id": 89
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "qqqq",
-      "createdAt": 1582029562480,
-      "id": 90
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
       "body": "qqqq ggg",
       "createdAt": 1582029566174,
       "id": 91
-    },
-    {
-      "teamId": "linkedin",
-      "channelId": "jobs",
-      "userId": "1",
-      "body": "111",
-      "createdAt": 1582029611198,
-      "id": 92
     }
   ]
 }

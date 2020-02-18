@@ -3,7 +3,7 @@
   {{format-timestamp "05-01-2019"}}
   <div class="py-4 flex-1 overflow-y-scroll channel-messages-list" role="list">
     {{#each messages as |m|}}
-    <Message @message={{m}} />
+    <Message @message={{m}} @delete={{fn channelApi.deleteMessage m.id}} />
     {{else}}
     No messages here.
     {{/each}}
