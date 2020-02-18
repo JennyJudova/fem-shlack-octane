@@ -1,7 +1,5 @@
-<ChatContainer @channel={{this.model}} as |messages|>
-  <h3>channel hbs</h3>
+<ChatContainer @channel={{this.model}} as |messages channelApi|>
   <ChannelHeader @title={{this.model.name}} @description={{this.model.description}} />
-  <h3>channel hbs</h3>
   {{format-timestamp "05-01-2019"}}
   <div class="py-4 flex-1 overflow-y-scroll channel-messages-list" role="list">
     {{#each messages as |m|}}
@@ -10,6 +8,5 @@
     No messages here.
     {{/each}}
   </div>
-  <h3>channel hbs</h3>
-  <ChannelFooter />
+  <ChannelFooter @sendMessage={{channelApi.createMessage}} />
 </ChatContainer>
